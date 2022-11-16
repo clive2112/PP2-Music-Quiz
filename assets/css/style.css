@@ -10,10 +10,10 @@ body {
     font-family: open-sans, sans-serif;
     font-weight: 300;
     color: #2F3E46;
-    background-color: #FFD166;
+    background-color: #e9ce8f;
 }
 
-h1, h2 {
+h1 {
     font-family: bubblegum-sans, sans-serif;
     text-transform: uppercase; 
     color: #073B4C;
