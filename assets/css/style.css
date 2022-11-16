@@ -4,13 +4,14 @@
     margin: 0;
     padding: 0;
     border: none;
+    font-family:bubblegum sans, open sans, sans-serif;
 }
 
 body {
     font-family: bubblegum sans, sans-serif;
     font-weight: 300;
     color: #2F3E46;
-    background-color: #e9ce8f;
+    background-color: #c4af76;
 }
 
 h1 {
@@ -19,12 +20,15 @@ h1 {
     color: #073B4C;
 }
 
+/*#introduction {
+    float:left
+}*/
 #main-image-outer {
     height: 600px;
     width: 33%;
     overflow: hidden;
     position: relative;
-    /*background-color:#EF476F ;*/
+    background-color:#EF476F ;
 }
 #main-image {
     height: 298px;
@@ -46,7 +50,7 @@ h1 {
     width: 400px;
     height: 120px;
     padding: 150px 50px;
-    /*background-color: #118AB2;*/
+    background-color: #118AB2;
     top: 30px;
     /*right: 30px;*/
     position: absolute;
@@ -66,3 +70,44 @@ h1 {
     /*left: 30px;*/
     position: absolute;
 }
+
+* navigation links 
+
+.flex-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float: right;
+    justify-content: center;
+    background-color: #e0521a;  
+    
+}
+
+.flex-container > div {
+    background-color: #5ec71c;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 25px;
+    float: right;
+  }
+
+.flex-container a {
+    color:#354F52;
+}
+
+.flex-container a:hover {
+    color:purple;
+    font-size: 125%;
+}
+
+/*media query for nav 
+@media only screen and (max-width: 350px )
+{
+    .flex-container a {
+        font-size: 20px;
+      }
+}*/
+
