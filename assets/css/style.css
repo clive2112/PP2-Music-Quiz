@@ -24,18 +24,20 @@ h1 {
     float:left
 }*/
 #main-image-outer {
-    height: 600px;
+    height: 100%;
     width: 33%;
-    overflow: hidden;
+    border: 5px solid goldenrod;
+    /*overflow: hidden;*/
     position: relative;
     background-color:#EF476F ;
 }
 #main-image {
     height: 298px;
-    width: 100%;
-    padding: 150px 20px;
+    width: 500px;
+    padding: 150px 10px;
     position: relative;
     background: url(../images/TornScriptPage.jpg) no-repeat left center;
+    border: 5px solid whitesmoke;
 }
 
 #cover-text, #cover-text h2 {
@@ -48,29 +50,36 @@ h1 {
     text-transform: uppercase;
     text-align: left;
     width: 400px;
-    height: 120px;
-    padding: 150px 50px;
-    background-color: #118AB2;
+    height: 40px;
+    padding-top: 150px;
+    padding-left: 30px;
+    /*background-color: #118AB2;*/
     top: 30px;
     /*right: 30px;*/
     position: absolute;
+    border: 5px solid black;
 }
 
-#cover-quote {
+#cover-quote > h3{
     font-size: 130%;
     font-family: bubblegum sans, sans-serif;
     color: #17566b;
     /*text-transform: uppercase;*/
-    text-align: center;
-    width: 500px;
+    text-align: left;
+    border: 5px solid blueviolet;
+    /*position: absolute;*/
+    /*padding-bottom: 160px;*/
+    
+    
+    /*width: 500px;
     height: 120px;
     padding: 10px 1px;
-    /*background-color: #118AB2;*/
+    background-color: #118AB2;
     bottom: 80px;
-    /*left: 30px;*/
-    position: absolute;
+    left: 30px;
+    position: relative;*/
 }
-
+/*
 * navigation links 
 
 .flex-container {
@@ -103,7 +112,7 @@ h1 {
     font-size: 125%;
 }
 
-/*media query for nav 
+media query for nav 
 @media only screen and (max-width: 350px )
 {
     .flex-container a {
