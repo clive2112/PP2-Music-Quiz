@@ -20,48 +20,49 @@ h1 {
 }
 
 #main-image-outer {
-    height: 298px;
-    width: 500px;
+    height: 600px;
+    width: 33%;
     overflow: hidden;
     position: relative;
-    background-color:#EF476F ;
+    /*background-color:#EF476F ;*/
 }
 #main-image {
     height: 298px;
     width: 100%;
-    padding: 20px 20px;
-
+    padding: 150px 20px;
+    position: relative;
     background: url(../images/TornScriptPage.jpg) no-repeat left center;
 }
 
 #cover-text, #cover-text h2 {
-    color: white;
+    color: #17566b;
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 150%;
     font-family: bubblegum sans, sans-serif;
     text-transform: uppercase;
-    text-align: center;
-    width: 220px;
+    text-align: left;
+    width: 400px;
     height: 120px;
-    padding: 10px 10px;
-    background-color: #118AB2;
+    padding: 150px 50px;
+    /*background-color: #118AB2;*/
     top: 30px;
-    right: 30px;
+    /*right: 30px;*/
     position: absolute;
 }
 
 #cover-quote {
     font-size: 130%;
     font-family: bubblegum sans, sans-serif;
+    color: #17566b;
     /*text-transform: uppercase;*/
     text-align: center;
-    width: 220px;
+    width: 500px;
     height: 120px;
-    padding: 10px 10px;
-    background-color: #118AB2;
-    bottom: 30px;
-    left: 30px;
+    padding: 10px 1px;
+    /*background-color: #118AB2;*/
+    bottom: 80px;
+    /*left: 30px;*/
     position: absolute;
 }
